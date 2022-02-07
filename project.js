@@ -31,21 +31,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_6 = function() {
+(lib.CachedBmp_3 = function() {
 	this.initialize(ss["project_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
+(lib.CachedBmp_2 = function() {
 	this.initialize(ss["project_atlas_5"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_4 = function() {
+(lib.CachedBmp_1 = function() {
 	this.initialize(ss["project_atlas_5"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -1177,7 +1177,7 @@ if (reversed == null) { reversed = false; }
 	mask_6.setTransform(50.5,178.5);
 
 	// Layer_3
-	this.instance = new lib.CachedBmp_6();
+	this.instance = new lib.CachedBmp_3();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	var maskedShapeInstanceList = [this.instance];
@@ -1303,7 +1303,7 @@ if (reversed == null) { reversed = false; }
 	mask.setTransform(47,46.5);
 
 	// Layer_3
-	this.instance = new lib.CachedBmp_5();
+	this.instance = new lib.CachedBmp_2();
 	this.instance.setTransform(17.45,11.55,0.5,0.5);
 
 	var maskedShapeInstanceList = [this.instance];
@@ -1383,7 +1383,7 @@ if (reversed == null) { reversed = false; }
 	mask_1.setTransform(47,47);
 
 	// Layer_3
-	this.instance_1 = new lib.CachedBmp_4();
+	this.instance_1 = new lib.CachedBmp_1();
 	this.instance_1.setTransform(3.35,14.6,0.5,0.5);
 
 	var maskedShapeInstanceList = [this.instance_1];
@@ -2582,9 +2582,10 @@ if (reversed == null) { reversed = false; }
 			temp.name = "Start_title";
 			temp.x = parseInt(canvas.style.width) / 2;
 			temp.y = (parseInt(canvas.style.height) / 2) - 50;
-			temp.text = "כביסה לHIT"
+			temp.text = "HITכביסה ל"
 			temp.font="40pt Assistant ExtraBold";
 			temp.textAlign = "center";
+			temp.color="#67B9CC";
 			
 			//הוספת הקומבו לבמה
 			forcombo = new lib.forcomb();
@@ -2617,23 +2618,25 @@ if (reversed == null) { reversed = false; }
 				["שבועות","text"]
 			];
 			questions_content = [	//	[full question, shirt content, type, correct category, correct category index, number of attempts]
-				["חג זה הוא החג הראשון מבין שלושת הרגלים.","החג הראשון","text","פסח", 1, 0],
-				["איזה חג חל בדיוק חצי שנה אחרי פסח?","חצי שנה אחרי פסח","text","סוכות",0, 0],
-				["חג זה הוא הקצר ביותר מבין שלושת הרגלים.","הקצר משלושת הרגלים","text","שבועות",2, 0],
-				["החג הזה נקרא גם חג האסיף.","חג האסיף","text","סוכות", 0, 0],
-				["החג הזה נקרא גם חג החירות.","חג החירות","text","פסח", 1, 0],
-				["החג הזה נקרא גם חג הקציר.","חג הקציר","text","שבועות", 2, 0],
-				["באיזה חג אין חול המועד?","אין חול המועד","text","שבועות", 2, 0],
-				["בחג זה קוראים את מגילת קהלת.","מגילת קהלת","text","סוכות", 0, 0],
-				["באיזה חג המאכל הנפוץ ביותר הוא מצה?","מצה","text","פסח", 1, 0],
-				["באיזה חג מתחילים את ספירת העומר?","תחילת ספירת העומר","text","פסח", 1, 0],
-				["בחג זה יש 4 מינים.","ארבעת המינים","text","סוכות", 0, 0],
-				["בחג זה קוראים את מגילת רות.","מגילת רות","text","שבועות", 2, 0],
-				["בחג זה נהוג להזמין אושפיזין במשך 7 ימים.","אושפיזין","text","סוכות", 0, 0],
-				["באיזה חג מסיימים את ספירת העומר?","סיום ספירת העומר","text","שבועות", 2, 0],
-				["באיזה חג לא נהוג לאכול חמץ?","ללא חמץ","text","פסח", 1, 0]		
+				["חג זה הוא החג הראשון מבין שלושת הרגלים","החג הראשון","text","פסח", 1, 0],
+				["?איזה חג חל בדיוק חצי שנה אחרי פסח","חצי שנה אחרי פסח","text","סוכות",0, 0],
+				["חג זה הוא הקצר ביותר מבין שלושת הרגלים","הקצר משלושת הרגלים","text","שבועות",2, 0],
+				["החג הזה נקרא גם חג האסיף","חג האסיף","text","סוכות", 0, 0],
+				["החג הזה נקרא גם חג החירות","חג החירות","text","פסח", 1, 0],
+				["החג הזה נקרא גם חג הקציר","חג הקציר","text","שבועות", 2, 0],
+				["?באיזה חג אין חול המועד","אין חול המועד","text","שבועות", 2, 0],
+				["בחג זה קוראים את מגילת קהלת","מגילת קהלת","text","סוכות", 0, 0],
+				["?באיזה חג המאכל הנפוץ ביותר הוא מצה","מצה","text","פסח", 1, 0],
+				["?באיזה חג מתחילים את ספירת העומר","תחילת ספירת העומר","text","פסח", 1, 0],
+				["בחג זה יש 4 מינים","ארבעת המינים","text","סוכות", 0, 0],
+				["בחג זה קוראים את מגילת רות","מגילת רות","text","שבועות", 2, 0],
+				["בחג זה נהוג להזמין אושפיזין במשך 7 ימים","אושפיזין","text","סוכות", 0, 0],
+				["?באיזה חג מסיימים את ספירת העומר","סיום ספירת העומר","text","שבועות", 2, 0],
+				["?באיזה חג לא נהוג לאכול חמץ","ללא חמץ","text","פסח", 1, 0]		
 			];
-			directions_content = "גרור את המושג אל החג אליו הוא שייך.";
+			directions_content = "גרור את המושג אל החג אליו הוא שייך";
+			directions_content.textAlign = "center";
+			directions_content.font="14pt Assistant";
 		}
 		
 		function gameAnimals()
@@ -2667,7 +2670,9 @@ if (reversed == null) { reversed = false; }
 				["", [lib.Q_jellyfish, lib.Q_jellyfish_small, lib.Q_jellyfish_large], "image", "חסרי חוליות", 3, 0],
 				["", "חיפושית", "text", "חסרי חוליות", 3, 0]
 			];
-			directions_content = "גרור את בעל החיים למחלקה אליה הוא שייך.";
+			directions_content = "גרור את בעל החיים למחלקה אליה הוא שייך";
+			directions_content.textAlign = "center";
+			directions_content.font="14pt Assistant";
 		}
 		
 		var remaining_questions;
@@ -2767,13 +2772,16 @@ if (reversed == null) { reversed = false; }
 			temp.y = 50;
 			temp.text = headline_content;
 			temp.font = "24pt Assistant ExtraBold";
+			temp.textAlign = "center";
 			
 			temp = new createjs.Text();
 			thisStage.addChild(temp);
 			temp.name = "question_question";
 			temp.x = question_position;
 			temp.y = 80;
-			temp.font = "18pt Assistant ExtraBold";	
+			temp.font = "18pt Assistant ExtraBold";
+			temp.textAlign = "center";
+			
 			
 			temp = new createjs.Text();
 			thisStage.addChild(temp);
@@ -2782,6 +2790,7 @@ if (reversed == null) { reversed = false; }
 			temp.y = 110;
 			temp.text = directions_content;	
 			temp.font = "16 Assistant ExtraBold";
+			temp.textAlign = "center";
 			
 			//	shuffle category order
 			randomized_categories = [];
@@ -2831,8 +2840,8 @@ if (reversed == null) { reversed = false; }
 				temp.y = tempY;
 				temp.text = randomized_categories[tempIndex][0];
 				temp.textAlign = "center";
-				temp.font = "16 Assistant ExtraBold";
-				
+				temp.font="32pt Assistant";
+					
 				tempIndex++;
 			}
 			
@@ -3589,14 +3598,14 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/project_atlas_1.png?1644218816359", id:"project_atlas_1"},
-		{src:"images/project_atlas_2.png?1644218816359", id:"project_atlas_2"},
-		{src:"images/project_atlas_3.png?1644218816359", id:"project_atlas_3"},
-		{src:"images/project_atlas_4.png?1644218816359", id:"project_atlas_4"},
-		{src:"images/project_atlas_5.png?1644218816360", id:"project_atlas_5"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1644218816456", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1644218816456", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1644218816456", id:"an.ComboBox"}
+		{src:"images/project_atlas_1.png?1644221845232", id:"project_atlas_1"},
+		{src:"images/project_atlas_2.png?1644221845233", id:"project_atlas_2"},
+		{src:"images/project_atlas_3.png?1644221845233", id:"project_atlas_3"},
+		{src:"images/project_atlas_4.png?1644221845233", id:"project_atlas_4"},
+		{src:"images/project_atlas_5.png?1644221845234", id:"project_atlas_5"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1644221845364", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1644221845364", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1644221845364", id:"an.ComboBox"}
 	],
 	preloads: []
 };
