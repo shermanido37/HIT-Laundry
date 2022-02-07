@@ -3,11 +3,11 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"project_atlas_1", frames: [[0,0,1920,1080]]},
-		{name:"project_atlas_2", frames: [[0,0,1920,1080]]},
+		{name:"project_atlas_1", frames: [[1028,0,202,714],[1894,0,120,142],[1891,564,157,132],[177,702,242,61],[0,702,175,175],[421,702,189,58],[1464,564,224,237],[1232,564,230,244],[2016,0,32,32],[1232,0,660,186],[1991,144,51,51],[1232,188,660,186],[1894,242,74,74],[1232,376,660,186],[1894,144,95,96],[1690,564,199,176],[0,514,660,186],[0,0,512,512],[662,514,240,240],[514,0,512,512]]},
+		{name:"project_atlas_2", frames: [[0,0,859,555],[861,0,512,512],[1375,0,512,512],[861,514,512,512],[1375,514,512,512],[0,557,512,512],[0,1071,512,512],[514,1028,512,512],[1028,1028,512,512]]},
 		{name:"project_atlas_3", frames: [[0,1082,1598,888],[0,0,1920,1080]]},
-		{name:"project_atlas_4", frames: [[0,0,859,555],[861,0,512,512],[1375,0,512,512],[861,514,512,512],[1375,514,512,512],[0,557,512,512],[0,1071,512,512],[514,1028,512,512],[1028,1028,512,512]]},
-		{name:"project_atlas_5", frames: [[1028,0,202,714],[1894,0,120,142],[1891,564,157,132],[177,702,242,61],[0,702,175,175],[421,702,189,58],[1464,564,224,237],[1232,564,230,244],[2016,0,32,32],[1232,0,660,186],[1991,144,51,51],[1232,188,660,186],[1894,242,74,74],[1232,376,660,186],[1894,144,95,96],[1690,564,199,176],[0,514,660,186],[0,0,512,512],[662,514,240,240],[514,0,512,512]]}
+		{name:"project_atlas_4", frames: [[0,0,1920,1080]]},
+		{name:"project_atlas_5", frames: [[0,0,1920,1080]]}
 ];
 
 
@@ -32,42 +32,42 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.basket = function() {
-	this.initialize(ss["project_atlas_4"]);
+	this.initialize(ss["project_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap17 = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap17_1 = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
@@ -81,98 +81,98 @@ lib.ssMetadata = [
 
 
 (lib.Bitmap21 = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap27 = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap28 = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Combo_Box = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._continue = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.crab = function() {
-	this.initialize(ss["project_atlas_4"]);
+	this.initialize(ss["project_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.deer = function() {
-	this.initialize(ss["project_atlas_4"]);
+	this.initialize(ss["project_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.downchevron = function() {
-	this.initialize(ss["project_atlas_4"]);
+	this.initialize(ss["project_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.duck = function() {
-	this.initialize(ss["project_atlas_4"]);
+	this.initialize(ss["project_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Error_icon = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.finish = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fox = function() {
-	this.initialize(ss["project_atlas_4"]);
+	this.initialize(ss["project_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.img1 = function() {
-	this.initialize(ss["project_atlas_1"]);
+	this.initialize(ss["project_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.img2 = function() {
-	this.initialize(ss["project_atlas_2"]);
+	this.initialize(ss["project_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -186,77 +186,77 @@ lib.ssMetadata = [
 
 
 (lib.jellyfish = function() {
-	this.initialize(ss["project_atlas_4"]);
+	this.initialize(ss["project_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lion = function() {
-	this.initialize(ss["project_atlas_4"]);
+	this.initialize(ss["project_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.NoAudio_button = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin = function() {
-	this.initialize(ss["project_atlas_4"]);
+	this.initialize(ss["project_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.restart = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Right_icon = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.shirt = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.start = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.turtle = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.washingmachine = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.whale = function() {
-	this.initialize(ss["project_atlas_5"]);
+	this.initialize(ss["project_atlas_1"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -3589,14 +3589,14 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/project_atlas_1.png?1644181969045", id:"project_atlas_1"},
-		{src:"images/project_atlas_2.png?1644181969045", id:"project_atlas_2"},
-		{src:"images/project_atlas_3.png?1644181969045", id:"project_atlas_3"},
-		{src:"images/project_atlas_4.png?1644181969046", id:"project_atlas_4"},
-		{src:"images/project_atlas_5.png?1644181969046", id:"project_atlas_5"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1644181969131", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1644181969131", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1644181969131", id:"an.ComboBox"}
+		{src:"images/project_atlas_1.png?1644217500509", id:"project_atlas_1"},
+		{src:"images/project_atlas_2.png?1644217500510", id:"project_atlas_2"},
+		{src:"images/project_atlas_3.png?1644217500510", id:"project_atlas_3"},
+		{src:"images/project_atlas_4.png?1644217500510", id:"project_atlas_4"},
+		{src:"images/project_atlas_5.png?1644217500510", id:"project_atlas_5"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1644217500597", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1644217500597", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1644217500597", id:"an.ComboBox"}
 	],
 	preloads: []
 };
